@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 132, 145,0.3);
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-left h1{
+    margin-left: 10px;
+    color: brown;
+}
+.nav-right ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+.nav-right ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 30px;
+    margin-top: 20px;
+    font-size: x-large;
+    
+    
+}
+.nav-right ul li:hover{
+    background-color: brown;
+    width: 70%;
+    height: 70%;
+    /* transition: 2s ease-in-out; */
+}
+
+.product-head{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 70px 50px;
+    /* flex-grow: 1; */
+}
+.product-list{
+    /* flex-basis: 40%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    border: 1px solid black;
+
+}
+
+.product-list h3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.product-list span{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.contact-head{
+    text-align: center;
+    margin: 70px 0;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+   
+}
+.contact-container{
+    border: 2px dotted gray;
+    margin: 0 100px 100px 100px;
+
+}
